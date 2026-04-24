@@ -29,17 +29,23 @@ See `Task04.py` for full implementation.
 #### Sentiment Distribution
 ![Sentiment Distribution](outputs/sentiment_distribution.png)
 
-#### WordCloud (Positive Sentiments)
+#### Positive Sentiment WordCloud
 ![Positive WordCloud](outputs/positive_wordcloud.png)
 
-#### WordCloud (Negative Sentiments)
+#### Negative Sentiment WordCloud
 ![Negative WordCloud](outputs/negative_wordcloud.png)
 
 ### Insights
-- Sentiment distribution shows whether public opinion leans positive, negative, or neutral.
-- WordClouds highlight the most frequent words associated with each sentiment.
-- Trends reveal how sentiment changes over time or across topics/brands.
+- The dataset contains four sentiment categories: **Positive, Negative, Neutral, and Irrelevant**.
+- Negative sentiment dominates the dataset, followed by Positive, then Neutral, with Irrelevant being least frequent.
+- Positive wordcloud highlights terms like *love, good, great, happy, excited*, showing enthusiasm around games and social media.
+- Negative wordcloud emphasizes frustration with *servers, problems, time, fix, bad, shit, fuck*, reflecting complaints about technology and gaming platforms.
+- Neutral and Irrelevant categories are less frequent but provide balance in sentiment distribution.
 
 ### Conclusion
-Sentiment analysis provides valuable insights into public opinion and brand perception.  
-By combining text preprocessing, classification, and visualization, this task demonstrates how social media data can be leveraged to understand customer attitudes and guide business or marketing strategies.
+This analysis demonstrates how labeled social media data can be leveraged to understand public opinion.  
+- **Positive sentiments** highlight excitement and appreciation, often linked to gaming and social platforms.  
+- **Negative sentiments** reveal dissatisfaction, technical issues, and strong emotional reactions.  
+- Visualizations like wordclouds and distribution charts make sentiment patterns easy to interpret and communicate.  
+
+Overall, sentiment analysis provides actionable insights into customer attitudes, helping brands and platforms identify strengths, weaknesses, and opportunities for improvement.
